@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700&family=Tangerine&display=swap">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Augusto Silveira</title>
 </head>
 <body>
-    <header>
-        <img src="./assets/augusto.png" alt="Augusto- Mohnnad-Silveira">
-        <p>Augusto Mohnnad Silveira</p>
-        <p>Full Stack Developer</p>
-        <nav>
-            <ul>
-                <li><a href="https://github.com/augustomohnnad" target="_blank">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/augusto-mohnnad-900aa03b6/" target="_blank">Linkedin</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="container-education">
+    <header class="container">
+    <section class="header-card">
+        <img class="avatar" src="./assets/augusto.png" alt="Augusto Mohnnad Silveira">
+
+        <div class="header-info">
+            <section class="header-text">
+                <h1>Augusto Mohnnad Silveira</h1>
+                <h2>Full Stack Developer</h2>
+            </section>
+
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="https://github.com/augustomohnnad" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/..." target="_blank" rel="noopener">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+</header>
+    <main class="container">
+        <section class="content-education">
     <h3>Formação & Certificações</h3>
     <article>
         <ul>
@@ -34,7 +44,7 @@
     </article>
 </section>
         
-        <section class="container-stack">
+        <section class="content-stack">
             <h3>Tech Stack & Tooling</h3>
             <article>
                 <ul>
@@ -46,12 +56,15 @@
             </article>
         </section>
 
-        <section class="container-projects">
+        <section class="content-projects">
         <h3>Projetos Recentes</h3>
         <article>
-            <h4>Back End CRUD Application</h4>
-            <p>Sistema de gerenciamento de dados utilizando Node.js e integração com banco de dados relacional. Interface "Front End" em desenvolvimento.</p>
-            <a href="https://github.com/augustomohnnad/Projeto-Plataforma-de-Cuidado-Integral" target="_blank" rel="noopener noreferrer">Acompanhar progresso no GitHub</a>
+            <ul>
+                <li>
+                    <strong>Back End CRUD Application: </strong>Sistema de gerenciamento de dados utilizando Node.js e integração com banco de dados relacional. Interface "Front End" em desenvolvimento.<a href="https://github.com/augustomohnnad/Projeto-Plataforma-de-Cuidado-Integral" target="_blank" rel="noopener noreferrer">Acompanhar progresso no GitHub</a>
+                </li>
+            </ul>
+            
         </article>
     </section>
     </main>
